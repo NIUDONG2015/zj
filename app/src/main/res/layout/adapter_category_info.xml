@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <LinearLayout
+        android:id="@+id/ll_info1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_list_item"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_image1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_default" />
+
+        <TextView
+            android:id="@+id/tv_name1"
+            style="@style/TitleText"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="不离不弃" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_info2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/selector_list_item"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_image2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_default" />
+
+        <TextView
+            android:id="@+id/tv_name2"
+            style="@style/TitleText"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="不离不弃" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_info3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/selector_list_item"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_image3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_default" />
+
+        <TextView
+            android:id="@+id/tv_name3"
+            style="@style/TitleText"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="不离不弃" />
+    </LinearLayout>
+</LinearLayout>
